@@ -58,19 +58,19 @@ example['image'] = tf.image.resize(example['image'], tf.constant([235, 235])) #�
  ### Графики обучения для предобученной нейронной сети EfficientNet-B0 с совместным использованием техник аугментации данных с оптимальными параметрами:
   
  ***График метрики точности:*** 
-<img src="./graph/epoch_categorical_accuracy_all.svg">
+<img src="./epoch_categorical_accuracy_all.svg">
 
 ***Пояснение:*** 
  
-<img src="./graph/cat_all.jpg">
+<img src="./cat_all.jpg">
 
  ***График функции потерь:*** 
  
-<img src="./graph/epoch_loss_all.svg">
+<img src="./epoch_loss_all.svg">
 
  ***Пояснение:*** 
  
-<img src="./graph/loss_all.jpg">
+<img src="./loss_all.jpg">
 
 
 ### Анализ результатов:
